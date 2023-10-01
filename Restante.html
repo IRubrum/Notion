@@ -56,7 +56,7 @@
         <h2 class="box" id="minutes"></h2>
         <h2 class="box" id="seconds"></h2>
         <h3>
-            Left in <br>This Month
+            Restantes <br>Nesse Mês
         </h3>
     </div>
 
@@ -79,8 +79,8 @@
     seconds = 59 - now.getSeconds();
     left_days.innerHTML = days + "<br> <span class=\"small\"> Dias </span>"
     left_hours.innerHTML = hours + "<br> <span class=\"small\"> Horas</span>";
-    left_minutes.innerHTML = minutes + "<br> <span class=\"small\">Mins</span>";
-    left_seconds.innerHTML = seconds + "<br> <span class=\"small\">Segs</span>";
+    left_minutes.innerHTML = minutes + "<br> <span class=\"small\">Min</span>";
+    left_seconds.innerHTML = seconds + "<br> <span class=\"small\">Seg</span>";
     }
 
 timer = setInterval (showRemaining, 1000) 
